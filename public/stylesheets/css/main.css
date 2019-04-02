@@ -1,0 +1,57 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+
+header {
+  height: 100vh;
+  background-image: url(/images/manhattan-407703.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  height: 50px;
+}
+nav ul {
+  padding-top: 10px;
+  margin-top: 0;
+  text-align: right;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  padding: 0px 30px;
+}
+nav a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav .logo {
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;
+}
+nav .right-nav {
+  text-align: right;
+}
+
+.hero {
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 10%;
+  color: white;
+}
+.hero h1 {
+  text-transform: capitalize;
+  font-size: 50px;
+}
+.hero p {
+  width: 80%;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

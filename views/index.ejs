@@ -2,12 +2,31 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <!-- <link rel='stylesheet' href='/stylesheets/style.css' /> -->
+    <link rel="stylesheet" href="/stylesheets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Source+Sans+Pro|Titillium+Web" rel="stylesheet">
+
   </head>
   <body>
     <!-- TITLE is being pulled by data in index.js -->
     <header>
        <!-- <h2>EXAMPLE</h2> -->
+       <nav>
+         <ul>
+           <li class="logo"><span>TALK <span class="space">SPACE</span></span></li>
+              <span class="right-nav">
+                  <li><a href="#">Archives</a></li>
+                  <li><a href="#">Login In</a></li>
+                  <li><a href="#">Sign Up</a></li>
+                  <li><a href="#">Search</a></li>
+              </span>
+         </ul>
+       </nav>
+
+       <section class="hero">
+        <h1>Welcome to TalkSpace</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates similique adipisci, earum, cupiditate quam officia dolorum, voluptas veniam doloribus dolores ducimus? Delectus, omnis corrupti vero hic harum dicta necessitatibus dolorem!</p>
+       </section>
     </header>
 
     <h1><%= title %></h1>
