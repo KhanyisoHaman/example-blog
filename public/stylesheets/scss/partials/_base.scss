@@ -30,10 +30,12 @@ header {
     a {
         color: $primary;
         text-decoration: none;
+        transition: font-weight 1s,
     }
 
     a:hover {
-        text-decoration: underline;
+        text-decoration: line-through;
+        transition: font-weight 1s,
     }
 
     .logo {
@@ -52,6 +54,21 @@ header {
         text-align: right;
     }
   }
+
+input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00B7FF;
+    border-radius: 2px;
+    font-style: italic;
+}
+
+footer {
+    height: 50vh;
+    background-color: rgba(0, 139, 139, 0.452);
+    background: linear-gradient(rgba(97, 173, 144, 0.295),rgba(34, 97, 148, 0.603)), url(/images/wolf-1341881_1920.jpg);
+    background-size: cover;
+}
   
 
   
