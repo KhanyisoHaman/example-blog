@@ -75,7 +75,17 @@ Tools:
 2019-04-02:
 - Created SASS Folders
 - 
-- 
+
+2019-04-3
+- Created header
+- created nav
+- created body
+- grid layouts
+
+2019-04-4
+- create back to top
+- create dynamic html
+- learn how to style dynamic html
 
 ## Contributors
 

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
@@ -101,6 +105,10 @@ footer {
   width: 500px;
   height: 300px;
 }
+.intro .info {
+  color: #999999;
+  margin: 0;
+}
 .intro h1 {
   font-size: 25px;
   margin: 0 auto;
@@ -197,6 +205,87 @@ footer {
 .pics:hover {
   transform: scale(1.08);
   transition: transform 1s;
+}
+
+.author {
+  text-align: left;
+  padding-right: 255px;
+}
+
+.dynamic {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 30px;
+  padding: 15vh 0vh 15vh 43vh;
+  height: 40vh;
+}
+.dynamic .dynamic-image {
+  width: 100%;
+  height: 300px;
+}
+.dynamic .dynamic-image img {
+  width: 450px;
+  height: 300px;
+  border-radius: 10px;
+}
+.dynamic .dynamic-text {
+  width: 500px;
+  height: 300px;
+}
+.dynamic .info {
+  color: #999999;
+  margin: 0;
+}
+.dynamic h1 {
+  font-size: 25px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+}
+.dynamic hr {
+  border-style: solid;
+  border-color: #00B7FF;
+  width: 150px;
+}
+.dynamic p {
+  margin-top: 20px;
+  color: #797373;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+.dynamic a {
+  text-decoration: none;
+  color: #00B7FF;
+  border-bottom: 3px solid #00B7FF;
+  border-radius: 2px;
+  font-size: 17px;
+}
+
+.dynamic:nth-of-type(3) {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 30px;
+  padding: 15vh 43vh 15vh 5vh !important;
+  height: 40vh;
+}
+
+#button {
+  transition: background-color 0.5s, visibility 0.7s, opacity 0.7s;
+  background-color: #00B7FF;
+  border-radius: 50%;
+  text-align: center;
+  position: fixed;
+  padding: 10px 15px;
+  z-index: 500;
+  right: 25px;
+  top: 530px;
+  font-size: 30px;
+  color: white;
+}
+
+#button:hover {
+  box-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px black;
 }
 
 /*# sourceMappingURL=main.css.map */

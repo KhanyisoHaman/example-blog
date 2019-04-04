@@ -2,20 +2,26 @@ var express = require('express');
 var router = express.Router();
 var Posts = require('../db.json');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  // res.render('index', { title: 'Express' });
 
 
+
+// My info
 var data = {
-  title: "Name of the Title",
+  title: "Talk Space",
   posts: Posts,
-  message: false
+  message: false,
+  name: "Westy",
+  welcomeText: "Baka Desuka?"
 };
 
-res.render('index', data);
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  res.render('index', data);
 });
 
+
+
 module.exports = router;
+// app.listen(8080);
 
 //That is our index 
