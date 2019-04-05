@@ -29,7 +29,7 @@ conclusion..........
 
 ## Live Link
 
--  https.......
+-  http://example-blog-example-blog.1d35.starter-us-east-1.openshiftapps.com/
 
 ## Prevalent Technologies Used
 

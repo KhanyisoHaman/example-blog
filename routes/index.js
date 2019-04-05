@@ -11,7 +11,7 @@ var data = {
   posts: Posts,
   message: false,
   name: "Westy",
-  welcomeText: "Baka Desuka?"
+  welcomeText: "Welcome to Talkspace"
 };
 
 /* GET home page. */
