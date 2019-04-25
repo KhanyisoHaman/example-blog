@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="shortcut icon" href="/images/PinClipart.com_poker-clip-art_211390.png" type="image/x-icon">
 
-
-
+    <!-- Link My Boostrap -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 
   </head>
   <body>
@@ -20,9 +20,9 @@
          <ul>
            <li class="logo"><span>TALK <span class="space">SPACE</span></span></li>
               <span class="right-nav">
-                  <li><a href="#">Archives</a></li>
+                  <li><a href="views/register.ejs">Archives</a></li>
                   <li><a href="/register.ejs">Login In</a></li>
-                  <li><a href="register.ejs">Sign Up</a></li>
+                  <li><a href="/register.ejs">Sign Up</a></li>
                   <li><span> <span><input placeholder="Search here..." type="text"></span> <i class="fas fa-search"></i></span></li>
               </span>
          </ul>
@@ -30,7 +30,9 @@
 
        <section class="hero">
         <h1><%= welcomeText %></h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates similique adipisci, earum, cupiditate quam officia dolorum, voluptas veniam doloribus dolores ducimus? Delectus, omnis corrupti vero hic harum dicta necessitatibus dolorem!</p>
+        <p>Radical self love is the process of joyfully discovering who you are. It is about embracing yourself and delighting in your own ABSOLUTE PERFECTION. It’s time to acknowledge your inner BEAST and let her out to play… In a killer outfit, of course!</p>
+
+        <p class="scroll-p" ><a class="scroll-down" href="#grid-pics">Scroll Down</a></p>
 
 
         <!-- <button class="find">Find More</button> -->
@@ -39,13 +41,17 @@
 
 
 
-    <div class="container">
+    <div class="container2">
 
-      <section class="grid-pics">
+      <section id="grid-pics" class="grid-pics">
         <article class="pics"> <a href="#man-baby"><img src="/images/baby-22194_1920.jpg" alt=""></a> </article>
         <article class="pics"> <a href="#lovers"><img src="/images/people-2561053_1920.jpg" alt=""></a> </article>
         <article class="pics"> <a href="#worship"><img src="/images/audience-868074_1920.jpg" alt=""></a> </article>
       </section>
+
+      <div id="lovers">Lovers</div>
+
+      <div id="worship">Worship</div>
 
       <!-- Back to Top Button -->
       <a id="button" class="back-top-btn" href="#"><i class="fas fa-chevron-up"></i></a>
@@ -110,7 +116,11 @@
         <hr class="break-line">
       <% }); %>
 
+
       <footer>
+
+        
+
       </footer>
 
     </div>
@@ -120,6 +130,11 @@
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+
+    <!-- Link My Bootstrap JS, JQUERY and AJAX -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Link My Js -->
     <script src="/javascripts/main.js"></script>
